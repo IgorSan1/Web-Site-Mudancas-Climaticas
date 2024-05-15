@@ -1,0 +1,111 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/fundo_noticia.jpg');
+    background-size: cover;
+    background-position: initial;
+}
+
+ul {
+    padding: 0px!important;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: rgba(255, 99, 71, 0.3);
+    height: 80px;
+    border-bottom: 3px solid rgba(233, 150, 122, 0.2);
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;;
+    position: relative;
+}
+
+.content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    padding: 10px;
+}
+
+.logo img {
+    height: 60px;
+}
+
+nav {
+    float: right;
+    padding: 25px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+
+nav ul li a:hover {
+    color: #000;
+}
+
+
+.content {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.noticia {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.noticia-imagem {
+    flex: 0 0 20%;
+    margin-right: 20px;
+    max-width: 15%;
+    height: auto;
+}
+
+
+.noticia-texto {
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.noticia h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.noticia p {
+    color: #555;
+    font-size: 18px;
+}
